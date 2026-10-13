@@ -1,0 +1,35 @@
+DISCHARGE SUMMARY
+Hospital: Northbridge General Hospital
+Patient Name: Margaret Ellis
+DOB: 12/03/1951 (Age 75)
+NHS Number: 943 476 5919 (synthetic)
+Sex: Female
+Date of Admission: 09/09/2026
+Date of Discharge: 14/09/2026
+Consultant: Dr A. Rahman
+
+Primary Diagnosis: Acute decompensated heart failure
+Secondary Diagnoses: Atrial fibrillation; Type 2 diabetes mellitus; Chronic kidney disease stage 3b; Hypertension
+
+Allergies: Penicillin (rash); Sulfonamides
+
+Presenting Complaint:
+72-hour history of worsening breathlessness, orthopnoea and bilateral leg swelling. Weight up 4 kg in one week.
+
+Hospital Course:
+Treated with IV furosemide with good diuresis (net -5.2 L). Echocardiogram showed LVEF 35%. Rate controlled with bisoprolol. Renal function monitored; creatinine peaked at 168 umol/L and improved to 142 umol/L. Mobilised with physiotherapy.
+
+Vital Signs at Discharge:
+BP 118/72 mmHg, HR 78 bpm, SpO2 95% on air, Temp 36.6 C, Weight 71.8 kg
+
+Discharge Medications:
+- Furosemide 40 mg oral once daily
+- Bisoprolol 2.5 mg oral once daily
+- Apixaban 2.5 mg oral twice daily
+- Metformin 500 mg oral twice daily
+- Ramipril 2.5 mg oral once daily
+- Atorvastatin 40 mg oral once daily
+
+Follow-up:
+Heart failure nurse review within 7 days. Repeat U&E in 1 week. Cardiology clinic in 6 weeks.
+Advice: daily weights, 1.5 L fluid restriction, low-salt diet. Return if weight rises >2 kg in 3 days.

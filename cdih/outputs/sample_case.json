@@ -1,0 +1,786 @@
+{
+  "case": {
+    "patient": {
+      "name": "Margaret Ellis",
+      "dob": "1951-03-12",
+      "nhs_number": "943 476 5919",
+      "sex": "Female"
+    },
+    "age": 75,
+    "warnings": [],
+    "flags": [
+      {
+        "severity": "HIGH",
+        "title": "Raised potassium (K+ 5.6 mmol/L, ref <= 5.3)",
+        "rationale": "Hyperkalaemia on the supplied lab report; repeat/recheck needed.",
+        "sources": [
+          "Lab report"
+        ],
+        "action": "Repeat U&E today/tomorrow; review ramipril and any potassium-raising drugs."
+      },
+      {
+        "severity": "HIGH",
+        "title": "Reduced kidney function (eGFR 31)",
+        "rationale": "eGFR < 45 affects dosing of renally cleared drugs.",
+        "sources": [
+          "Lab report"
+        ],
+        "action": "Pharmacist renal-dose review of all medications."
+      },
+      {
+        "severity": "HIGH",
+        "title": "ACE inhibitor with raised potassium",
+        "rationale": "Ramipril can raise K+; physician note already asks for U&E recheck - confirm it happened.",
+        "sources": [
+          "Lab report",
+          "Physician note"
+        ],
+        "action": "Prescriber to decide whether to hold/reduce ramipril while K+ is raised."
+      },
+      {
+        "severity": "HIGH",
+        "title": "Metformin with reduced eGFR (31)",
+        "rationale": "Dose review recommended at eGFR 30-44; physician note flags this as unresolved.",
+        "sources": [
+          "Lab report",
+          "Physician note"
+        ],
+        "action": "Prescriber/pharmacist to review metformin dose against eGFR."
+      },
+      {
+        "severity": "HIGH",
+        "title": "Apixaban 2.5 mg BD in discharge summary: possible UNDER-dose",
+        "rationale": "AF dose rule: 2.5 mg BD only if >= 2 of (age >= 80, weight <= 60 kg, creatinine >= 133). Criteria met: 1 (creatinine 152 >= 133) -> expected 5 mg BD. Physician note also left the dose 'to be confirmed'. Prescriber/pharmacist to verify.",
+        "sources": [
+          "Discharge summary"
+        ],
+        "action": "Prescriber to confirm correct apixaban dose and reconcile records."
+      },
+      {
+        "severity": "HIGH",
+        "title": "NSAID on medication list (Ibuprofen)",
+        "rationale": "NSAIDs can worsen heart failure and kidney function, and raise bleeding risk with an anticoagulant.",
+        "sources": [
+          "Intake form"
+        ],
+        "action": "Ask prescriber to review/stop NSAID; advise patient to avoid OTC NSAIDs."
+      },
+      {
+        "severity": "HIGH",
+        "title": "Weight up 2.5 kg since discharge (71.8 -> 74.3 kg)",
+        "rationale": "Discharge advice: return if weight rises > 2 kg in 3 days. Possible fluid re-accumulation (time window not verifiable from documents).",
+        "sources": [
+          "Discharge summary",
+          "Intake form"
+        ],
+        "action": "Same-week HF nurse/clinician assessment of fluid status and diuretic dose."
+      },
+      {
+        "severity": "HIGH",
+        "title": "Low BP (104/62) with dizziness on standing",
+        "rationale": "Possible over-diuresis/hypotension on HF medications; falls risk on an anticoagulant.",
+        "sources": [
+          "Intake form"
+        ],
+        "action": "Check lying/standing BP; review diuretic and antihypertensive doses."
+      },
+      {
+        "severity": "HIGH",
+        "title": "Recent fall while anticoagulated",
+        "rationale": "1 fall(s) in last 3 months on apixaban - head-injury/bleed risk and falls assessment.",
+        "sources": [
+          "Intake form"
+        ],
+        "action": "Falls assessment; counsel on head-injury warning signs while on apixaban."
+      },
+      {
+        "severity": "MODERATE",
+        "title": "Anaemia (Hb 104 g/L)",
+        "rationale": "Below reference range; relevant with anticoagulation and heart failure.",
+        "sources": [
+          "Lab report"
+        ],
+        "action": null
+      },
+      {
+        "severity": "MODERATE",
+        "title": "Markedly elevated NT-proBNP (4850 ng/L)",
+        "rationale": "Consistent with significant cardiac strain.",
+        "sources": [
+          "Lab report"
+        ],
+        "action": null
+      },
+      {
+        "severity": "MODERATE",
+        "title": "Suboptimal diabetic control (HbA1c 61 mmol/mol)",
+        "rationale": "Above typical target; review diabetes plan.",
+        "sources": [
+          "Lab report"
+        ],
+        "action": null
+      },
+      {
+        "severity": "MODERATE",
+        "title": "Lives alone",
+        "rationale": "Higher readmission risk; social care assessment was requested in physician note - check outcome.",
+        "sources": [
+          "Physician note",
+          "Intake form"
+        ],
+        "action": "Confirm social care assessment outcome and home support."
+      },
+      {
+        "severity": "MODERATE",
+        "title": "Repeat U&E requested at discharge - no result in supplied documents",
+        "rationale": "Result not evidenced; with raised K+ and low eGFR this matters.",
+        "sources": [
+          "Discharge summary"
+        ],
+        "action": "Obtain/arrange the repeat U&E result."
+      }
+    ],
+    "triage": {
+      "level": "PRIORITY",
+      "timeframe": "Clinician review within 24-48 hours",
+      "why": "9 high-severity flags with interacting risks (see flags)."
+    },
+    "med_reconciliation": [
+      {
+        "Medication": "Furosemide",
+        "Discharge summary": "40 mg OD",
+        "Intake form": "40 mg OD",
+        "Status": "unchanged"
+      },
+      {
+        "Medication": "Bisoprolol",
+        "Discharge summary": "2.5 mg OD",
+        "Intake form": "2.5 mg OD",
+        "Status": "unchanged"
+      },
+      {
+        "Medication": "Apixaban",
+        "Discharge summary": "2.5 mg BD",
+        "Intake form": "5 mg BD",
+        "Status": "CHANGED"
+      },
+      {
+        "Medication": "Metformin",
+        "Discharge summary": "500 mg BD",
+        "Intake form": "500 mg BD",
+        "Status": "unchanged"
+      },
+      {
+        "Medication": "Ramipril",
+        "Discharge summary": "2.5 mg OD",
+        "Intake form": "2.5 mg OD",
+        "Status": "unchanged"
+      },
+      {
+        "Medication": "Atorvastatin",
+        "Discharge summary": "40 mg OD",
+        "Intake form": "40 mg OD",
+        "Status": "unchanged"
+      },
+      {
+        "Medication": "Ibuprofen",
+        "Discharge summary": "-",
+        "Intake form": "400 mg PRN",
+        "Status": "NEW"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-09-11",
+        "document": "Physician note"
+      },
+      {
+        "date": "2026-09-13",
+        "document": "Lab report"
+      },
+      {
+        "date": "2026-09-14",
+        "document": "Discharge summary"
+      },
+      {
+        "date": "2026-10-02",
+        "document": "Intake form"
+      }
+    ],
+    "diagnoses": [
+      "Acute decompensated heart failure",
+      "Atrial fibrillation",
+      "Type 2 diabetes mellitus",
+      "Chronic kidney disease stage 3b",
+      "Hypertension"
+    ],
+    "allergies": [
+      "Penicillin (rash)",
+      "Sulfonamides"
+    ],
+    "narrative": "Margaret Ellis, 75-year-old female, admitted with acute decompensated heart failure (also: atrial fibrillation, type 2 diabetes mellitus, chronic kidney disease stage 3b). Allergies: Penicillin (rash), Sulfonamides. Cross-document review raised 9 high-priority issue(s), notably: Raised potassium (K+ 5.6 mmol/L, ref <= 5.3); Reduced kidney function (eGFR 31); ACE inhibitor with raised potassium; Metformin with reduced eGFR (31). Suggested triage: PRIORITY - clinician review within 24-48 hours. For clinician review.",
+    "next_steps": [
+      "**Repeat U&E today/tomorrow; review ramipril and any potassium-raising drugs.** *(because: Raised potassium (K+ 5.6 mmol/L, ref <= 5.3))*",
+      "**Pharmacist renal-dose review of all medications.** *(because: Reduced kidney function (eGFR 31))*",
+      "**Prescriber to decide whether to hold/reduce ramipril while K+ is raised.** *(because: ACE inhibitor with raised potassium)*",
+      "**Prescriber/pharmacist to review metformin dose against eGFR.** *(because: Metformin with reduced eGFR (31))*",
+      "**Prescriber to confirm correct apixaban dose and reconcile records.** *(because: Apixaban 2.5 mg BD in discharge summary: possible UNDER-dose)*",
+      "**Ask prescriber to review/stop NSAID; advise patient to avoid OTC NSAIDs.** *(because: NSAID on medication list (Ibuprofen))*",
+      "**Same-week HF nurse/clinician assessment of fluid status and diuretic dose.** *(because: Weight up 2.5 kg since discharge (71.8 -> 74.3 kg))*",
+      "**Check lying/standing BP; review diuretic and antihypertensive doses.** *(because: Low BP (104/62) with dizziness on standing)*",
+      "**Falls assessment; counsel on head-injury warning signs while on apixaban.** *(because: Recent fall while anticoagulated)*"
+    ],
+    "extractor": "Rule-based (offline)"
+  },
+  "documents": [
+    {
+      "doc_type": {
+        "value": "Discharge summary",
+        "confidence": 0.97,
+        "evidence": "DISCHARGE SUMMARY\nHospital: Northbridge General Hospital\nPat"
+      },
+      "patient": {
+        "name": {
+          "value": "Margaret Ellis",
+          "confidence": 0.97,
+          "evidence": "Patient Name: Margaret Ellis"
+        },
+        "dob": {
+          "value": "1951-03-12",
+          "confidence": 0.97,
+          "evidence": "DOB: 12/03/1951 (Age 75)"
+        },
+        "nhs_number": {
+          "value": "943 476 5919",
+          "confidence": 0.97,
+          "evidence": "NHS Number: 943 476 5919 (synthetic)"
+        },
+        "sex": {
+          "value": "Female",
+          "confidence": 0.97,
+          "evidence": "Sex: Female"
+        }
+      },
+      "dates": {
+        "admission": {
+          "value": "2026-09-09",
+          "confidence": 0.95,
+          "evidence": "Date of Admission: 09/09/2026"
+        },
+        "discharge": {
+          "value": "2026-09-14",
+          "confidence": 0.95,
+          "evidence": "Date of Discharge: 14/09/2026"
+        }
+      },
+      "author": {
+        "value": "Dr A. Rahman",
+        "confidence": 0.9,
+        "evidence": "Consultant: Dr A. Rahman"
+      },
+      "primary_diagnosis": {
+        "value": "Acute decompensated heart failure",
+        "confidence": 0.93,
+        "evidence": "Primary Diagnosis: Acute decompensated heart failure"
+      },
+      "secondary_diagnoses": [
+        {
+          "value": "Atrial fibrillation",
+          "confidence": 0.9,
+          "evidence": "Secondary Diagnoses: Atrial fibrillation; Type 2 diabetes mellitus; Chronic kidney disease stage 3b; Hypertension"
+        },
+        {
+          "value": "Type 2 diabetes mellitus",
+          "confidence": 0.9,
+          "evidence": "Secondary Diagnoses: Atrial fibrillation; Type 2 diabetes mellitus; Chronic kidney disease stage 3b; Hypertension"
+        },
+        {
+          "value": "Chronic kidney disease stage 3b",
+          "confidence": 0.9,
+          "evidence": "Secondary Diagnoses: Atrial fibrillation; Type 2 diabetes mellitus; Chronic kidney disease stage 3b; Hypertension"
+        },
+        {
+          "value": "Hypertension",
+          "confidence": 0.9,
+          "evidence": "Secondary Diagnoses: Atrial fibrillation; Type 2 diabetes mellitus; Chronic kidney disease stage 3b; Hypertension"
+        }
+      ],
+      "allergies": [
+        {
+          "value": "Penicillin (rash)",
+          "confidence": 0.95,
+          "evidence": "Allergies: Penicillin (rash); Sulfonamides"
+        },
+        {
+          "value": "Sulfonamides",
+          "confidence": 0.95,
+          "evidence": "Allergies: Penicillin (rash); Sulfonamides"
+        }
+      ],
+      "reason_for_visit": null,
+      "medications": [
+        {
+          "name": "Furosemide",
+          "dose": "40 mg",
+          "route": "oral",
+          "frequency": "OD",
+          "confidence": 0.95,
+          "evidence": "Furosemide 40 mg oral once daily"
+        },
+        {
+          "name": "Bisoprolol",
+          "dose": "2.5 mg",
+          "route": "oral",
+          "frequency": "OD",
+          "confidence": 0.95,
+          "evidence": "Bisoprolol 2.5 mg oral once daily"
+        },
+        {
+          "name": "Apixaban",
+          "dose": "2.5 mg",
+          "route": "oral",
+          "frequency": "BD",
+          "confidence": 0.95,
+          "evidence": "Apixaban 2.5 mg oral twice daily"
+        },
+        {
+          "name": "Metformin",
+          "dose": "500 mg",
+          "route": "oral",
+          "frequency": "BD",
+          "confidence": 0.95,
+          "evidence": "Metformin 500 mg oral twice daily"
+        },
+        {
+          "name": "Ramipril",
+          "dose": "2.5 mg",
+          "route": "oral",
+          "frequency": "OD",
+          "confidence": 0.95,
+          "evidence": "Ramipril 2.5 mg oral once daily"
+        },
+        {
+          "name": "Atorvastatin",
+          "dose": "40 mg",
+          "route": "oral",
+          "frequency": "OD",
+          "confidence": 0.95,
+          "evidence": "Atorvastatin 40 mg oral once daily"
+        }
+      ],
+      "labs": [],
+      "vitals": {
+        "bp": {
+          "value": "118/72",
+          "confidence": 0.93,
+          "evidence": "BP 118/72"
+        },
+        "hr": {
+          "value": 78,
+          "confidence": 0.93,
+          "evidence": "HR 78"
+        },
+        "spo2": {
+          "value": 95,
+          "confidence": 0.93,
+          "evidence": "SpO2 95"
+        },
+        "temp_c": {
+          "value": 36.6,
+          "confidence": 0.93,
+          "evidence": "Temp 36.6"
+        },
+        "weight_kg": {
+          "value": 71.8,
+          "confidence": 0.93,
+          "evidence": "Weight 71.8 kg"
+        }
+      },
+      "follow_up": [
+        "Heart failure nurse review within 7 days.",
+        "Repeat U&E in 1 week.",
+        "Cardiology clinic in 6 weeks."
+      ],
+      "plan_items": [],
+      "social": {},
+      "falls_last_3m": null,
+      "free_text_flags": [],
+      "extractor": "rules",
+      "_file": "discharge_summary_2026-09-14.pdf",
+      "_ingest": "PDF text layer"
+    },
+    {
+      "doc_type": {
+        "value": "Intake form",
+        "confidence": 0.97,
+        "evidence": "OUTPATIENT INTAKE FORM\n\nClinic: Northbridge Heart Failure Cl"
+      },
+      "patient": {
+        "name": {
+          "value": "Margaret Ellis",
+          "confidence": 0.97,
+          "evidence": "Patient Name: Margaret Ellis"
+        },
+        "dob": {
+          "value": "1951-03-12",
+          "confidence": 0.97,
+          "evidence": "DOB: 12/03/1951"
+        }
+      },
+      "dates": {
+        "document_date": {
+          "value": "2026-10-02",
+          "confidence": 0.95,
+          "evidence": "Date: 02/10/2026"
+        }
+      },
+      "author": null,
+      "primary_diagnosis": null,
+      "secondary_diagnoses": [],
+      "allergies": [
+        {
+          "value": "Penicillin",
+          "confidence": 0.95,
+          "evidence": "Allergies: Penicillin"
+        }
+      ],
+      "reason_for_visit": {
+        "value": "Follow-up after hospital admission. Ankle swelling returning,",
+        "confidence": 0.9,
+        "evidence": "Reason for Visit: Follow-up after hospital admission. Ankle swelling returning,"
+      },
+      "medications": [
+        {
+          "name": "Furosemide",
+          "dose": "40 mg",
+          "route": null,
+          "frequency": "OD",
+          "confidence": 0.95,
+          "evidence": "Furosemide 40mg daily"
+        },
+        {
+          "name": "Bisoprolol",
+          "dose": "2.5 mg",
+          "route": null,
+          "frequency": "OD",
+          "confidence": 0.95,
+          "evidence": "Bisoprolol 2.5mg daily"
+        },
+        {
+          "name": "Apixaban",
+          "dose": "5 mg",
+          "route": null,
+          "frequency": "BD",
+          "confidence": 0.95,
+          "evidence": "Apixaban 5 mg\ntwice daily"
+        },
+        {
+          "name": "Metformin",
+          "dose": "500 mg",
+          "route": null,
+          "frequency": "BD",
+          "confidence": 0.95,
+          "evidence": "Metformin 500 mg twice daily"
+        },
+        {
+          "name": "Ramipril",
+          "dose": "2.5 mg",
+          "route": null,
+          "frequency": "OD",
+          "confidence": 0.95,
+          "evidence": "Ramipril 2.5mg daily"
+        },
+        {
+          "name": "Atorvastatin",
+          "dose": "40 mg",
+          "route": null,
+          "frequency": "OD",
+          "confidence": 0.95,
+          "evidence": "Atorvastatin\n40mg daily"
+        },
+        {
+          "name": "Ibuprofen",
+          "dose": "400 mg",
+          "route": null,
+          "frequency": "PRN",
+          "confidence": 0.95,
+          "evidence": "Ibuprofen 400 mg as needed"
+        }
+      ],
+      "labs": [],
+      "vitals": {
+        "bp": {
+          "value": "104/62",
+          "confidence": 0.93,
+          "evidence": "BP today: 104/62"
+        },
+        "hr": {
+          "value": 82,
+          "confidence": 0.93,
+          "evidence": "HR 82"
+        },
+        "weight_kg": {
+          "value": 74.3,
+          "confidence": 0.93,
+          "evidence": "Weight today: 74.3 kg"
+        }
+      },
+      "follow_up": [],
+      "plan_items": [],
+      "social": {
+        "lives_alone": {
+          "value": true,
+          "confidence": 0.9,
+          "evidence": "Living situation: Lives alone"
+        }
+      },
+      "falls_last_3m": {
+        "value": 1,
+        "confidence": 0.9,
+        "evidence": "Falls in last 3 months: 1"
+      },
+      "free_text_flags": [
+        "dizzy"
+      ],
+      "extractor": "rules",
+      "_file": "intake_form_2026-10-02.png",
+      "_ingest": "image (OCR)"
+    },
+    {
+      "doc_type": {
+        "value": "Lab report",
+        "confidence": 0.97,
+        "evidence": "PATHOLOGY LABORATORY REPORT\nLaboratory: Northbridge General"
+      },
+      "patient": {
+        "name": {
+          "value": "Margaret Ellis",
+          "confidence": 0.97,
+          "evidence": "Patient Name: Margaret Ellis"
+        },
+        "dob": {
+          "value": "1951-03-12",
+          "confidence": 0.97,
+          "evidence": "DOB: 12/03/1951"
+        },
+        "nhs_number": {
+          "value": "943 476 5919",
+          "confidence": 0.97,
+          "evidence": "NHS Number: 943 476 5919 (synthetic)"
+        }
+      },
+      "dates": {
+        "collected": {
+          "value": "2026-09-13",
+          "confidence": 0.95,
+          "evidence": "Collected: 13/09/2026 07:40"
+        }
+      },
+      "author": null,
+      "primary_diagnosis": null,
+      "secondary_diagnoses": [],
+      "allergies": [],
+      "reason_for_visit": null,
+      "medications": [],
+      "labs": [
+        {
+          "test": "Haemoglobin",
+          "value": 104.0,
+          "unit": "g/L",
+          "ref_low": 115.0,
+          "ref_high": 165.0,
+          "flag": "LOW",
+          "confidence": 0.96,
+          "evidence": "Haemoglobin | 104 | g/L | 115 - 165"
+        },
+        {
+          "test": "White Cell Count",
+          "value": 8.2,
+          "unit": "x10^9/L",
+          "ref_low": 4.0,
+          "ref_high": 11.0,
+          "flag": "NORMAL",
+          "confidence": 0.96,
+          "evidence": "White Cell Count | 8.2 | x10^9/L | 4.0 - 11.0"
+        },
+        {
+          "test": "Platelets",
+          "value": 231.0,
+          "unit": "x10^9/L",
+          "ref_low": 150.0,
+          "ref_high": 400.0,
+          "flag": "NORMAL",
+          "confidence": 0.96,
+          "evidence": "Platelets | 231 | x10^9/L | 150 - 400"
+        },
+        {
+          "test": "Sodium",
+          "value": 133.0,
+          "unit": "mmol/L",
+          "ref_low": 133.0,
+          "ref_high": 146.0,
+          "flag": "NORMAL",
+          "confidence": 0.96,
+          "evidence": "Sodium | 133 | mmol/L | 133 - 146"
+        },
+        {
+          "test": "Potassium",
+          "value": 5.6,
+          "unit": "mmol/L",
+          "ref_low": 3.5,
+          "ref_high": 5.3,
+          "flag": "HIGH",
+          "confidence": 0.96,
+          "evidence": "Potassium | 5.6 | mmol/L | 3.5 - 5.3"
+        },
+        {
+          "test": "Urea",
+          "value": 14.8,
+          "unit": "mmol/L",
+          "ref_low": 2.5,
+          "ref_high": 7.8,
+          "flag": "HIGH",
+          "confidence": 0.96,
+          "evidence": "Urea | 14.8 | mmol/L | 2.5 - 7.8"
+        },
+        {
+          "test": "Creatinine",
+          "value": 152.0,
+          "unit": "umol/L",
+          "ref_low": 45.0,
+          "ref_high": 84.0,
+          "flag": "HIGH",
+          "confidence": 0.96,
+          "evidence": "Creatinine | 152 | umol/L | 45 - 84"
+        },
+        {
+          "test": "eGFR",
+          "value": 31.0,
+          "unit": "mL/min/1.73m2",
+          "ref_low": 60.0,
+          "ref_high": null,
+          "flag": "LOW",
+          "confidence": 0.96,
+          "evidence": "eGFR | 31 | mL/min/1.73m2 | > 60"
+        },
+        {
+          "test": "HbA1c",
+          "value": 61.0,
+          "unit": "mmol/mol",
+          "ref_low": 20.0,
+          "ref_high": 42.0,
+          "flag": "HIGH",
+          "confidence": 0.96,
+          "evidence": "HbA1c | 61 | mmol/mol | 20 - 42"
+        },
+        {
+          "test": "NT-proBNP",
+          "value": 4850.0,
+          "unit": "ng/L",
+          "ref_low": null,
+          "ref_high": 125.0,
+          "flag": "HIGH",
+          "confidence": 0.96,
+          "evidence": "NT-proBNP | 4850 | ng/L | < 125"
+        },
+        {
+          "test": "CRP",
+          "value": 9.0,
+          "unit": "mg/L",
+          "ref_low": 0.0,
+          "ref_high": 5.0,
+          "flag": "HIGH",
+          "confidence": 0.96,
+          "evidence": "CRP | 9 | mg/L | 0 - 5"
+        }
+      ],
+      "vitals": {},
+      "follow_up": [],
+      "plan_items": [],
+      "social": {},
+      "falls_last_3m": null,
+      "free_text_flags": [],
+      "extractor": "rules",
+      "_file": "lab_report_2026-09-13.pdf",
+      "_ingest": "PDF text layer"
+    },
+    {
+      "doc_type": {
+        "value": "Physician note",
+        "confidence": 0.97,
+        "evidence": "PHYSICIAN PROGRESS NOTE\nPatient Name: Margaret Ellis\nDOB: 12"
+      },
+      "patient": {
+        "name": {
+          "value": "Margaret Ellis",
+          "confidence": 0.97,
+          "evidence": "Patient Name: Margaret Ellis"
+        },
+        "dob": {
+          "value": "1951-03-12",
+          "confidence": 0.97,
+          "evidence": "DOB: 12/03/1951"
+        }
+      },
+      "dates": {
+        "document_date": {
+          "value": "2026-09-11",
+          "confidence": 0.95,
+          "evidence": "Date: 11/09/2026"
+        }
+      },
+      "author": {
+        "value": "Dr A. Rahman, Consultant Cardiologist",
+        "confidence": 0.9,
+        "evidence": "Author: Dr A. Rahman, Consultant Cardiologist"
+      },
+      "primary_diagnosis": null,
+      "secondary_diagnoses": [],
+      "allergies": [],
+      "reason_for_visit": null,
+      "medications": [],
+      "labs": [],
+      "vitals": {
+        "bp": {
+          "value": "122/70",
+          "confidence": 0.93,
+          "evidence": "BP 122/70"
+        },
+        "hr": {
+          "value": 84,
+          "confidence": 0.93,
+          "evidence": "HR 84"
+        },
+        "spo2": {
+          "value": 94,
+          "confidence": 0.93,
+          "evidence": "SpO2 94"
+        }
+      },
+      "follow_up": [],
+      "plan_items": [
+        "Convert IV furosemide to oral furosemide 40 mg daily tomorrow.",
+        "Continue ramipril but recheck U&E in 48 hours given raised potassium.",
+        "Review metformin dose given eGFR - discuss with pharmacist.",
+        "Social work assessment for home support. Falls risk: uses walking stick.",
+        "Anticoagulation: apixaban continued, dose to be confirmed against age, weight and creatinine."
+      ],
+      "social": {
+        "lives_alone": {
+          "value": true,
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "falls_last_3m": null,
+      "free_text_flags": [
+        "walking stick",
+        "falls risk",
+        "poor appetite"
+      ],
+      "extractor": "rules",
+      "_file": "physician_note_2026-09-11.pdf",
+      "_ingest": "PDF text layer"
+    }
+  ]
+}

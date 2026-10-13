@@ -1,0 +1,15 @@
+OUTPATIENT INTAKE FORM
+Clinic: Northbridge Heart Failure Clinic
+Patient Name: Margaret Ellis
+DOB: 12/03/1951
+Date: 02/10/2026
+Reason for Visit: Follow-up after hospital admission. Ankle swelling returning, tired, dizzy on standing.
+
+Allergies: Penicillin
+Current Medications: Furosemide 40mg daily, Bisoprolol 2.5mg daily, Apixaban 5 mg twice daily, Metformin 500 mg twice daily, Ramipril 2.5mg daily, Atorvastatin 40mg daily, Ibuprofen 400 mg as needed for knee pain
+Smoker: No
+Alcohol: 2 units per week
+Falls in last 3 months: 1 (tripped at home)
+Weight today: 74.3 kg
+BP today: 104/62 mmHg, HR 82 bpm
+Living situation: Lives alone

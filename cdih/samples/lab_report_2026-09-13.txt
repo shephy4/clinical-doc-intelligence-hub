@@ -1,0 +1,22 @@
+PATHOLOGY LABORATORY REPORT
+Laboratory: Northbridge General Hospital Pathology
+Patient Name: Margaret Ellis
+DOB: 12/03/1951
+NHS Number: 943 476 5919 (synthetic)
+Collected: 13/09/2026 07:40
+Reported: 13/09/2026 11:15
+
+Test | Result | Unit | Reference Range
+Haemoglobin | 104 | g/L | 115 - 165
+White Cell Count | 8.2 | x10^9/L | 4.0 - 11.0
+Platelets | 231 | x10^9/L | 150 - 400
+Sodium | 133 | mmol/L | 133 - 146
+Potassium | 5.6 | mmol/L | 3.5 - 5.3
+Urea | 14.8 | mmol/L | 2.5 - 7.8
+Creatinine | 152 | umol/L | 45 - 84
+eGFR | 31 | mL/min/1.73m2 | > 60
+HbA1c | 61 | mmol/mol | 20 - 42
+NT-proBNP | 4850 | ng/L | < 125
+CRP | 9 | mg/L | 0 - 5
+
+Comment: Hyperkalaemia and reduced eGFR. Clinical correlation advised.

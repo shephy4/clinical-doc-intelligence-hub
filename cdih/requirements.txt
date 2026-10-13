@@ -1,0 +1,10 @@
+streamlit>=1.40
+anthropic>=0.40   # optional
+openai>=1.50       # Gemini / Groq / OpenRouter via OpenAI-compatible API
+pdfplumber>=0.11
+pytesseract>=0.3.13
+pillow>=10
+pandas>=2
+reportlab>=4        # only for make_samples.py
+pytest>=8           # only for tests
+# System dependency for OCR of images/scans: tesseract-ocr

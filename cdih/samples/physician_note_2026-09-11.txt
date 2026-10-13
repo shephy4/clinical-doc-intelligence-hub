@@ -1,0 +1,15 @@
+PHYSICIAN PROGRESS NOTE
+Patient Name: Margaret Ellis
+DOB: 12/03/1951
+Date: 11/09/2026
+Author: Dr A. Rahman, Consultant Cardiologist
+
+Subjective: Breathlessness improving. Sleeping flat for the first time in a week. Reports poor appetite. Lives alone; daughter visits twice weekly.
+Objective: BP 122/70, HR 84 irregular, SpO2 94% on air. Bibasal crackles reduced. Peripheral oedema 1+.
+Assessment: Heart failure with reduced EF responding to IV diuresis. AF rate controlled. AKI on CKD 3b, creatinine trending down.
+Plan:
+1. Convert IV furosemide to oral furosemide 40 mg daily tomorrow.
+2. Continue ramipril but recheck U&E in 48 hours given raised potassium.
+3. Review metformin dose given eGFR - discuss with pharmacist.
+4. Social work assessment for home support. Falls risk: uses walking stick.
+5. Anticoagulation: apixaban continued, dose to be confirmed against age, weight and creatinine.
